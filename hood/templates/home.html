@@ -1,0 +1,39 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content %}
+{{block.super}}
+
+
+<div class="jumbotron"
+    style="background-image:url(https://images.unsplash.com/photo-1540639933642-e8fc11a13437?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5laWdoYm91cmhvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) ;background-repeat:no-repeat;background-position:center center;background-size:cover;height:100vh;margin-top:-1;color:black;">
+      </div>
+      <div class="container" style="padding-top: 3%;padding-bottom: 3%;font-family: 'Forum', cursive;" >
+    
+  <p class='text-center' style="font-family: 'Dosis', sans-serif;">Welcome to Neighbourhood, the only place you can be yourself.Join a neighbourhood, Meet new neighbours, post latest happenings.</p>
+      <div class="row">
+        {% for neighbourhood in neighbourhoods %}
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  
+                      <img src="{{neighbourhood.hood_image.url}}" width="100%" height="300px" class="img-responsive">
+                  <div class="card-body">
+                      <p> <span>
+                          {{neighbourhood.hood_name}}</span>
+                          <span style="text-transform: capitalize;font-weight: bold;">:{{ neighbourhood.location }}</span>
+                          <span style="float: right;"><a href="{%url 'detail' neighbourhood.id %}"><button class="btn btn-outline-success btn-sm">Join Hood</button></a></span>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+
+      </div>
+  </div>
+</div>
+{% endblock %}
+
+
+
+
+
+
