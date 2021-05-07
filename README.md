@@ -41,7 +41,7 @@ The application will allow a user to post a Neighbourhood,Join a neighbourhood, 
 
 ## Contact Information
 
-{feel free to contact me via E-mail: irafidela@gmail.com in case you need any support or contribution.}
+feel free to contact me via E-mail: irafidela@gmail.com in case you need any support or contribution.}
 
 ### License
 
