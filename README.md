@@ -1,6 +1,6 @@
 # Neighborhood
 
-#### NeigborHood application., {5th May 2021}
+#### NeigborHood application., {5th May 2021
 #### By **{Fidela-Keziah}**
 
 ## Description
