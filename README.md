@@ -6,7 +6,7 @@
 
 ## Description
 
-{The application will allow a user to post a Neighbourhood,Join a neighbourhood, Meet new neighbours, post latest happenings..}
+The application will allow a user to post a Neighbourhood,Join a neighbourhood, Meet new neighbours, post latest happenings..
 
 ## Cloning
 
